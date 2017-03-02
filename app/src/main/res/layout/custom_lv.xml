@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_margin="2sp"
+        android:background="#989E26">
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="match_parent"
+            android:text="assignment"
+            android:textSize="20sp"
+            android:id="@+id/tVassignment"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="2sp"
+            android:background="#819830"
+            android:weightSum="2"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="date"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:id="@+id/tVassignmentdate"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="time"
+            android:layout_weight="1"
+            android:layout_margin="2sp"
+            android:id="@+id/tVassignmenttime"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
